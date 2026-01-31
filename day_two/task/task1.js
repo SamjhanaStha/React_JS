@@ -7,7 +7,7 @@
 
 let user = {
     name : "Samjhana",
-    login(){
+    login : function(){
         console.log(`Hello, ${this.name}. You are now logged in!`)
     }
 }
