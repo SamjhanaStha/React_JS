@@ -1,0 +1,42 @@
+
+4. Immutability Principles – 10 Practice Tasks
+Update an object's age from 25 to 26 immutably using spread operator.
+
+Add a new hobby to a person's hobbies array immutably.
+
+Remove the last element from an array immutably.
+
+Replace the second element in an array immutably.
+
+Change a nested property address.city in an object immutably.
+
+Add a new key-value pair to an object immutably.
+
+Remove a property deletedAt from an object immutably.
+
+Merge two arrays immutably into a new array.
+
+Merge two objects immutably into a new object.
+
+Update a specific object in an array of objects immutably (by id).
+
+5. Higher-Order Functions – 10 Practice Tasks
+Write a higher-order function repeat(action, times) that calls action function times times.
+
+Create a function operate(arr, fn) that applies fn to each element using map.
+
+Write a function filterBy(arr, conditionFn) that returns filtered array using the provided condition.
+
+Create a higher-order function logger(fn) that logs "before" and "after" calling fn.
+
+Write a function createAdder(x) that returns a new function adding x to its argument.
+
+Create a higher-order function sortBy(arr, key) that sorts array of objects by given key.
+
+Write a function pipeline(...functions) that chains multiple functions (apply one after another).
+
+Create a higher-order function withTax(taxRate) that returns a function to add tax to price.
+
+Write a function debounce(fn, delay) that delays function execution (basic version).
+
+Create a higher-order function memoize(fn) that caches results of expensive pure functions.
