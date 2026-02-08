@@ -1,0 +1,12 @@
+.Button{
+    background-color: teal;
+    border-radius:  10px;
+    padding: 20px 40px;
+    box-shadow: 2px 2px 10px yellow;
+    border: none;
+}
+
+.Dark{
+    background-color: black;
+    color: white;
+}

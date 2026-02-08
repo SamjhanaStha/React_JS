@@ -1,24 +1,4 @@
 
-4. Immutability Principles – 10 Practice Tasks
-Update an object's age from 25 to 26 immutably using spread operator.
-
-Add a new hobby to a person's hobbies array immutably.
-
-Remove the last element from an array immutably.
-
-Replace the second element in an array immutably.
-
-Change a nested property address.city in an object immutably.
-
-Add a new key-value pair to an object immutably.
-
-Remove a property deletedAt from an object immutably.
-
-Merge two arrays immutably into a new array.
-
-Merge two objects immutably into a new object.
-
-Update a specific object in an array of objects immutably (by id).
 
 5. Higher-Order Functions – 10 Practice Tasks
 Write a higher-order function repeat(action, times) that calls action function times times.
