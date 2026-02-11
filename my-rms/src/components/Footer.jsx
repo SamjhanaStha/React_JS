@@ -1,3 +1,5 @@
+import '../style.css'
+
 let Footer = ()=>{
      return(
         <div className="footer">

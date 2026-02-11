@@ -8,10 +8,10 @@ let repeat = (action, times)=>{
 
 let times = repeat (
     console.log,
-    3
+    4
 )
 
-// Create a function operate(arr, fn) that applies fn to each element using map
+//2. Create a function operate(arr, fn) that applies fn to each element using map
 
 let operate = (arr, fn)=>{
     return arr.map(fn)
@@ -23,4 +23,17 @@ const double = operate(
     number, (x)=> x*x
 )
 
+// 3. Write a function filterBy(arr, conditionFn) that returns filtered array using the provided condition.
+let filterBy= (arr, conditionFn) => {
+    const result= [] 
+    for(let i = 0; i<arr.length; i++){
+        if(conditionFn(arr[i], i, arr)){
+            result.push(arr[i]) 
+        }
+    }
+    return arr;
+}
 
+let num = [23, 12, 64, 27, 24]
+const even= filterBy(num, (num)=>num%2===0)
+console.log(even)

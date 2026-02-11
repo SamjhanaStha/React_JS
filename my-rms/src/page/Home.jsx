@@ -7,6 +7,8 @@
 6. Add CSS accordinly
 **/
 
+import '../style.css'
+
 let Home = ()=>{
     return(
         <div className="home">
