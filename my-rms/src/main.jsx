@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 import Signup from './page/Singup.jsx'
 import Navbar from './components/Navbar.jsx'
 import FoodList from './page/foods/FoodList.jsx'
+import DynamicFoodMenus from './page/foods/DynamicFoodMenus.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='login' element={<Login/>}/>
           <Route path='signup' element={<Signup isLoggedIn={"True"}/>}/>
           <Route path='food-menu' element={<FoodList/>}/>
+          <Route path='d-food-menu' element={<DynamicFoodMenus/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

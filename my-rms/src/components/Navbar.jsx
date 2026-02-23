@@ -17,6 +17,9 @@ let Navbar = () => {
                 <b>
                     <Link to={"/food-menu"}>Food Menu</Link>
                 </b>
+                <b>
+                    <Link to={"/d-food-menu"}>Dynamic Food Menu</Link>
+                </b>
             </div>
         </div>
     )

@@ -16,6 +16,7 @@ let FoodList =()=>{
                                 <h4 className="food-id">{fm.id}</h4>
                                 <p className="title">{fm.name.toUpperCase()}</p>
                                 <p className="base-price">Base Price: {fm.base_Price}</p>
+                                {/* generate sub foob menus as below from data */}
                                 {
                                     fm.sub_Food_menu.map((sfm, index)=>{
                                         return(
