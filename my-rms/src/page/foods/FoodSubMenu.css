@@ -1,0 +1,73 @@
+.fsm-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.fsm-card{
+    border: 2px solid teal;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    min-width: 200px;
+    max-width: 250px;
+    transition: 0.8s all ease-in-out;
+    text-align: center;
+}
+
+.fsm-card:hover{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+    transform: scale(1.6);
+}
+
+.fsm-main{
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button-delete{
+    background-color: crimson;
+}
+
+.button-edit{
+    background-color: orange;
+}
+
+.fsm-form{
+    border: 2px solid teal;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fsm-form label {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.fsm-form label input {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}

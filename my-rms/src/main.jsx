@@ -9,6 +9,7 @@ import Signup from './page/Singup.jsx'
 import Navbar from './components/Navbar.jsx'
 import FoodList from './page/foods/FoodList.jsx'
 import DynamicFoodMenus from './page/foods/DynamicFoodMenus.jsx'
+import FoodSubMenu from './page/foods/FoodSubMenu.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='signup' element={<Signup isLoggedIn={"True"}/>}/>
           <Route path='food-menu' element={<FoodList/>}/>
           <Route path='d-food-menu' element={<DynamicFoodMenus/>}/>
+          <Route path='food-sub-menu' element={<FoodSubMenu/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
