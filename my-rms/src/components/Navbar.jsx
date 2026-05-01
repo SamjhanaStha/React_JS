@@ -23,6 +23,9 @@ let Navbar = () => {
                 <b>
                     <Link to={"/food-sub-menu"}>Food Sub Menu</Link>
                 </b>
+                <b>
+                    <Link to={"/form-validation"}>form Validation</Link>
+                </b>
             </div>
         </div>
     )

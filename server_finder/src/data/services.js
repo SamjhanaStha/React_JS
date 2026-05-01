@@ -1,0 +1,80 @@
+export const services = [
+  {
+    id: 1,
+    name: "Plumber",
+    provider: "Ram Bahadur",
+    price: 500,
+    rating: 4.5,
+    location: "Kathmandu",
+    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400",
+    description: "Expert plumber with 10+ years experience. Specializing in pipe repairs, installations, and emergency plumbing services.",
+    experience: "10 years",
+    phone: "+977-9801234567",
+    available: "24/7"
+  },
+  {
+    id: 2,
+    name: "Electrician",
+    provider: "Shyam Kumar",
+    price: 700,
+    rating: 4.2,
+    location: "Lalitpur",
+    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400",
+    description: "Licensed electrician handling all electrical works, wiring, installations, and troubleshooting.",
+    experience: "8 years",
+    phone: "+977-9801234568",
+    available: "9 AM - 8 PM"
+  },
+  {
+    id: 3,
+    name: "Carpenter",
+    provider: "Hari Prasad",
+    price: 600,
+    rating: 4.7,
+    location: "Bhaktapur",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400",
+    description: "Skilled carpenter for furniture, repairs, and custom woodworking projects.",
+    experience: "12 years",
+    phone: "+977-9801234569",
+    available: "8 AM - 6 PM"
+  },
+  {
+    id: 4,
+    name: "Cleaner",
+    provider: "Sita Devi",
+    price: 400,
+    rating: 4.3,
+    location: "Kathmandu",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400",
+    description: "Professional cleaning services for homes and offices. Deep cleaning, regular maintenance.",
+    experience: "5 years",
+    phone: "+977-9801234570",
+    available: "9 AM - 5 PM"
+  },
+  {
+    id: 5,
+    name: "Painter",
+    provider: "Gopal Thapa",
+    price: 800,
+    rating: 4.6,
+    location: "Lalitpur",
+    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=400",
+    description: "Professional painting services for interior and exterior walls.",
+    experience: "7 years",
+    phone: "+977-9801234571",
+    available: "8 AM - 7 PM"
+  },
+  {
+    id: 6,
+    name: "Gardener",
+    provider: "Krishna Rai",
+    price: 450,
+    rating: 4.4,
+    location: "Bhaktapur",
+    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400",
+    description: "Gardening and landscaping services. Plant care, lawn mowing, garden maintenance.",
+    experience: "6 years",
+    phone: "+977-9801234572",
+    available: "7 AM - 5 PM"
+  }
+];
